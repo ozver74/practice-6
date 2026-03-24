@@ -14,7 +14,7 @@ public class Auction {
     public void makeABid(int lotNumber, String bidder, int value) {
         Lot lot = getLot(lotNumber);
         if (lot != null) {
-            lot.bidFor(new Bid(bidder, value)); // anonymous object ✅
+            lot.bidFor(new Bid(bidder, value)); 
         }
     }
 
